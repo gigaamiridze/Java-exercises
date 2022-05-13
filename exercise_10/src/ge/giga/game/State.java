@@ -5,6 +5,8 @@ import java.util.Objects;
 
 public class State implements Serializable {
 
+    public static final long serialVersionUID = 1L;
+
     protected Coordinate<Integer> coordinate;
     protected int health;
 

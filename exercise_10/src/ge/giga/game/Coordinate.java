@@ -5,6 +5,8 @@ import java.util.Objects;
 
 public class Coordinate<TYPE extends Number> implements Serializable {
 
+    public static final long serialVersionUID = 1L;
+
     protected TYPE x;
     protected TYPE y;
 
